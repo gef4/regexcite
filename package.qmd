@@ -49,7 +49,7 @@ load_all()
 ```
 
 ```{r}
-(x <- "alfa, bravo, charlie, delta")
+(x <- "alfa,bravo,charlie,delta")
 #> [1] "alfa,bravo,charlie,delta"
 strsplit1(x, split = ",")
 #> [1] "alfa"    "bravo"   "charlie" "delta"
