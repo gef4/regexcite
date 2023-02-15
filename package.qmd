@@ -5,9 +5,13 @@ editor: visual
 ---
 
 ```{r}
-library(devtools)
+library(devtools) 
+
+# check the package version
+
+packageVersion('devtools')
 ```
 
 ```{r}
-
+create_package(".")
 ```
