@@ -45,7 +45,7 @@ strsplit1 <- function(x, split) {
 ```{r}
 load_all()
 #> ℹ Loading regexcite
-#> 
+#> in consule
 ```
 
 ```{r}
