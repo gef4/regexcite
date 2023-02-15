@@ -13,5 +13,9 @@ packageVersion('devtools')
 ```
 
 ```{r}
+"gef4@calvin.edu"
+```
+
+```{r}
 create_package(".")
 ```
