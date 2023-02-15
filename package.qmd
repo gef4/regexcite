@@ -45,4 +45,17 @@ strsplit1 <- function(x, split) {
 ```{r}
 load_all()
 #> ℹ Loading regexcite
+#> 
+```
+
+```{r}
+(x <- "alfa, bravo, charlie, delta")
+#> [1] "alfa,bravo,charlie,delta"
+strsplit1(x, split = ",")
+#> [1] "alfa"    "bravo"   "charlie" "delta"
+```
+
+```{r}
+exists("strsplit1", where = globalenv(), inherits = FALSE)
+#> [1] FALSE
 ```
